@@ -79,5 +79,35 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #e0e0e0;
+    background-color: #000;
+    color: #FFF;
+}
+
+@media (max-width: 640px) {
+    section {
+        width: 70%;
+    }
+
+    h2 {
+        font-size: 5vw;
+        margin-bottom: 4vw;
+    }
+
+    label {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    select {
+        padding: 15px;
+        margin-bottom: 6vw;
+    }
+
+    button[type="submit"] {
+        padding: 2.5vw 5.7vw;
+        font-size: 2.5vw;
+    }
 }
